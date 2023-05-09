@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Virtual</title>
+    <link rel="stylesheet" type="text/css" href="keyboard.css">
+</head>
+<body>
+<div class="container">
+    <div class="line">
+        <button class="button">Esc</button>
+    </div>
+    <br>
+    <div class="line">
+        <button class="button">~<br>´</button>
+        <button class="button">!<br>1</button>
+        <button class="button">@<br>2</button>
+        <button class="button">#<br>3</button>
+        <button class="button">$<br>4</button>
+        <button class="button">%<br>5</button>
+        <button class="button">^<br>6</button>
+        <button class="button">&<br>7</button>
+        <button class="button">*<br>8</button>
+        <button class="button">(<br>9</button>
+        <button class="button">)<br>0</button>
+        <button class="button">_<br>-</button>
+        <button class="button">+<br>=</button>
+        <button class="backspace">backspace</button>
+    </div>
+    <br>
+    <div class="line">
+        <button class="tab">tab</button>
+        <button class="button">q</button>
+        <button class="button">w</button>
+        <button class="button">e</button>
+        <button class="button">r</button>
+        <button class="button">t</button>
+        <button class="button">y</button>
+        <button class="button">u</button>
+        <button class="button">i</button>
+        <button class="button">o</button>
+        <button class="button">p</button>
+        <button class="button">{<br>[</button>
+        <button class="button">}<br>]</button>
+        <button class="button">|<br>\</button>
+    </div>
+    <br>
+    <div class="line">
+        <button class="mid-button"><img width="30px" height="30px" src="search-icon.png"></button>
+        <button class="button">a</button>
+        <button class="button">s</button>
+        <button class="button">d</button>
+        <button class="button">f</button>
+        <button class="button">g</button>
+        <button class="button">h</button>
+        <button class="button">j</button>
+        <button class="button">k</button>
+        <button class="button">l</button>
+        <button class="button">:<br>;</button>
+        <button class="button">"<br>'</button>
+        <button class="mid-button">Enter</button>
+    </div>
+    <br>
+    <div class="line">
+        <button class="shift">Shift</button>
+        <button class="button">z</button>
+        <button class="button">x</button>
+        <button class="button">c</button>
+        <button class="button">v</button>
+        <button class="button">b</button>
+        <button class="button">n</button>
+        <button class="button">m</button>
+        <button class="button"><<br>,</button>
+        <button class="button">><br>.</button>
+        <button class="button">?<br>/</button>
+        <button class="shift">Shift</button>
+    </div>
+    <br>
+    <div class="line">
+        <button class="large-button">Ctrl</button>
+        <button class="large-button">Alt</button>
+        <button class="space"></button>
+        <button class="button">Alt</button>
+        <button class="button">Ctrl</button>
+        <button class="left-arrow"><img width="25px" height="25px" src="arrow.png"></button>
+        <div class="mid-arrow">
+            <button class="up-arrow"><img width="25px" height="25px" src="arrow.png"></button>
+            <br>
+            <button class="down-arrow"><img width="25px" height="25px" src="arrow.png"></button>
+        </div>
+        <button class="right-arrow"><img width="25px" height="25px" src="arrow.png"></button>
+    </div>
+    </button>
+
+    </button>
+</button>
+</body>
+</html>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    
+    document.onkeydown = Pega_Tecla;
+    
+    function Pega_Tecla(e) 
+    {	
+        e = e || window.event;
+    
+        tecla = e.keyCode;
+        console.log(tecla); // MOSTRA O CÓDIGO DA TECLA PRESSIONADA
+    
+        
+    
+    
+    
+    }
+    </script>
+    
+    </html>
