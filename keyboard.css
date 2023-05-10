@@ -2,14 +2,20 @@ body{
     padding: 0px;
     margin: 0px;
     justify-content: space-;
+    background-color: whitesmoke;
+}
+.container{
+    margin: 200px;
+    width: 70%;
+    height: 80vh;
 }
 .line{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color:antiquewhite;
 }
-.
-.Left-arrow{
+.left-arrow{
     transform: rotate(180deg);
     width: 60px;
     height: 60px;
@@ -44,7 +50,21 @@ body{
 }
 .space{
     width: 300px;
-   
+    height: 60px;
+    border-radius: 10px;
+    background-color:lightblue;
+    border-color: black;
+    color: darkblue;
+    font-size: 20px;
+}
+.backspace{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:lightblue;
+    border-color: black;
+    color: darkblue;
+    font-size: 20px;
 }
 .down-arrow{
     transform: rotate(90deg);
@@ -75,7 +95,7 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background-color:lightblue;
+    background-color:yellow;
     border-color: black;
     color: darkblue;
     font-size: 20px;
@@ -90,6 +110,24 @@ body{
     font-size: 20px;
 }
 .tab{
+    width: 90px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:lightblue;
+    border-color: black;
+    color: darkblue;
+    font-size: 20px;
+}
+.mid-button{
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+    background-color:lightblue;
+    border-color: black;
+    color: darkblue;
+    font-size: 20px;
+}
+.large-button{
     width: 90px;
     height: 60px;
     border-radius: 10px;
