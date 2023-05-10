@@ -1,19 +1,24 @@
 body{
     padding: 0px;
     margin: 0px;
-    justify-content: space-;
+    justify-content:center;
     background-color: whitesmoke;
+    overflow-y: hidden;
+    align-content: center;
+    display: flex;
+    margin-top: 180px;
+    background-color: white;
 }
 .container{
-    margin: 200px;
-    width: 70%;
+    
+    width: 50%;
     height: 80vh;
 }
 .line{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color:antiquewhite;
+    background-color:white;
 }
 .left-arrow{
     transform: rotate(180deg);
@@ -29,17 +34,13 @@ body{
     flex-direction: column;
     width: 60px;
     height: 60px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
 }
 .up-arrow{
     transform: rotate(270deg);
     border-radius: 10px;
     background-color:lightblue;
-    width: 30px;
-    height: 60px;
+    width: 60px;
+    height: 30px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -49,7 +50,7 @@ body{
     font-size: 20px;
 }
 .space{
-    width: 300px;
+    width: 350px;
     height: 60px;
     border-radius: 10px;
     background-color:lightblue;
@@ -68,8 +69,8 @@ body{
 }
 .down-arrow{
     transform: rotate(90deg);
-    width: 30px;
-    height: 60px;
+    width: 60px;
+    height: 30px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -95,13 +96,13 @@ body{
     width: 60px;
     height: 60px;
     border-radius: 10px;
-    background-color:yellow;
+    background-color:lightblue;
     border-color: black;
     color: darkblue;
     font-size: 20px;
 }
 .shift{
-    width: 80px;
+    width: 100px;
     height: 60px;
     border-radius: 10px;
     background-color:lightblue;
@@ -134,5 +135,25 @@ body{
     background-color:lightblue;
     border-color: black;
     color: darkblue;
+    font-size: 20px;
+}
+.text-box{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+
+    border-color: black;
+    color: darkblue;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+.text{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:lightblue;
+    color: #000000;
     font-size: 20px;
 }
